@@ -1,0 +1,117 @@
+
+.btn-shop {
+    background-color: #D2B48C;  
+    color: white;
+    border: none;
+}
+
+.btn-outline-shop {
+    background-color: transparent;
+    color: #D2B48C;
+    border: 2px solid #D2B48C;  
+}
+
+.btn-shop:hover, .btn-outline-shop:hover {
+    background-color: #C19A6B;  
+    color: white;
+}
+.button-container {
+    text-align: center;              
+    margin-top: 20px;   
+}             
+
+.button-container .btn {
+    margin: 0 10px;                  
+}
+.fancy-text {
+    font-family: 'Georgia', serif;  
+    font-size: 1.2rem;               
+    line-height: 1.6;               
+    color: #4B3C2D;                  
+    text-align: center;              
+    margin: 20px 0;                  
+    margin-left: -20px;              
+}
+
+.fancy-text::first-letter {
+    font-size: 2rem;                
+    font-weight: bold;               
+    color: #C19A6B;                  
+}
+
+.hero-title,  /* por "Nouveaux arrivages" title */
+.section-title { /* pour "Dernières tendances" */
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5rem;                      
+    font-weight: 700;                       
+    color: #8B4513;                         
+    text-align: center;                    
+    margin: 20px 0;                        
+    
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.card-img-top {
+    width: 100%;        
+    height: 250px;      
+    object-fit: cover;  
+}
+
+.custom-button {
+    background-color: #D2B48C; 
+    color: white; 
+    border: none; 
+}
+
+.custom-button:hover {
+    background-color: #F4A460; 
+}
+footer a {
+    color: white; 
+    text-decoration: none; 
+}
+
+footer a:hover {
+    color: #F4A460; 
+}
+footer ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+footer h5 {
+    color: #F4A460; 
+    font-family: 'Montserrat', sans-serif; 
+}
+footer .h3 {
+    color: white; 
+    font-family: 'Playfair Display', serif;
+}
+footer p {
+    color: #eddbdb; 
+    font-family: 'Lora', serif; 
+}
+footer a {
+    color: #FFFFFF; 
+}
+footer a:hover {
+    color: #ff9900; 
+}
+footer ul {
+    list-style-type: none; 
+    padding-left: 0px;
+}
+section.py-5 {
+    margin-top: -40px; 
+}
+
+
+
+
+

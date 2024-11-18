@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- Ensures the page is rendered in the highest mode of compatibility available in Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!-- Links the Bootstrap CSS file -->
+    <link rel="stylesheet" href="styless.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg  navbar-dark" style="background-color: #8B4513;">
+        <div class="container-fluid">
+            <a class="navbar-brand font-weight" href="#"> Shop App </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedcontent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Accueil </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Shop </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Black Friday </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Meilleures ventes </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Service client </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Mon panier <span class="badge bg-danger fw-bold">0</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-6 d-flex align-items-center">
+                    <div>
+                        <h1 class="fw-bold hero-title">Nouveaux arrivages :</h1>
+                        <p class="my-4 fancy-text">
+                                Découvrez les dernières tendances de la mode avec nos nouveaux arrivages ! Des tops élégants aux accessoires raffinés,
+                                 nous vous proposons les pièces les plus fraîches pour rehausser votre garde-robe.
+                                 Que vous recherchiez quelque chose de décontracté ou de sophistiqué, notre nouvelle collection a quelque chose pour tout le monde. 
+                                Achetez maintenant et soyez le premier à mettre la main sur les indispensables de cette saison. 
+                        </p>
+                        <div class="button-container" >
+                            <button class="btn btn-shop btn-lg">Voir le shop</button>
+                            <button class="btn btn-outline-shop btn-lg">Contactez nous</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="download (2).jpeg" alt="Nouveaux arrivages" class="w-100 rounded-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Gallery Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h1 class="fw-bold section-title">Dernière tendances :</h1><br><br>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm">
+                        <img src="dress.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <!-- Body of the card containing text and a button -->
+                            <h5 class="card-title">Robes</h5>
+                            <p class="card-text">
+                                Découvrez nos robes élégantes et confortables, parfaites pour toutes les occasions.
+                                 Que ce soit pour une soirée chic ou une journée décontractée, nos robes vous feront briller.
+                            </p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="crop.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">Tops</h5>
+                            <p class="card-text">Ajoutez une touche de fraîcheur à votre garde-robe avec nos tops tendance. 
+                                Disponibles en plusieurs styles et couleurs, idéals pour un look casual ou habillé.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="veste.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">Monteaux et Vestes</h5>
+                            <p class="card-text">Affrontez le froid avec classe grâce à nos manteaux et vestes.
+                                 De la laine chic aux vestes légères, trouvez votre protection idéale contre les intempéries.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="pant.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">Pantalons et jupes</h5>
+                            <p class="card-text">Élevez votre style avec nos pantalons et jupes aux coupes impeccables. 
+                                Qu'il s'agisse d'un jean tendance ou d'une jupe élégante, trouvez la pièce parfaite pour vous.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="jean.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">jeans</h5>
+                            <p class="card-text">Nos jeans sont conçus pour offrir confort et style.
+                                 Découvrez des coupes modernes qui s'adaptent à toutes les silhouettes et occasions.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="chaussure.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">Chaussures</h5>
+                            <p class="card-text">Marchez avec style grâce à notre collection de chaussures. 
+                                Talons ou baskets, trouvez la paire idéale pour chaque occasion.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                    <div class="card shadow-sm"> 
+                         <img src="bag.jpeg" class="card-img-top" alt="...">
+                         <div class="card-body"> 
+                            <h5 class="card-title">Sacs</h5>
+                            <p class="card-text">Complétez votre look avec nos sacs élégants et pratiques.
+                                 Choisissez parmi une gamme de designs, du sac à main au sac à dos chic.</p>
+                            <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 my-2">
+                <div class="card shadow-sm"> 
+                     <img src="clips.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body"> 
+                        <h5 class="card-title">Accessoires</h5>
+                        <p class="card-text">Affinez votre style avec nos accessoires tendance. 
+                            Écharpes, bijoux, chapeaux et plus encore pour apporter la touche finale à votre tenue.</p>
+                        <a href="#" class="btn custom-button">Ajouter au panier</a> 
+                    </div> 
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="text-white py-5" style="background-color: #8B4513;">       
+            <footer class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="h3 fw-bold">SHOP APP</div>
+                        <p>Shop the latest trends <br>in fashion and accessories.</p>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h5>Guides</h5>
+                                <ul>
+                                    <li><a href="#">Shopping Guide</a></li>
+                                    <li><a href="#">Sizing Guide</a></li>
+                                    <li><a href="#">Return Policy</a></li>
+                                    <li><a href="#">Payment Methods</a></li>
+                                    <li><a href="#">Shipping Information</a></li>
+                                </ul>
+                            </div> 
+                            <div class="col-md-3">
+                                <h5>Links</h5>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Projects</h5>
+                                <ul>
+                                    <li><a href="#">New Arrivals</a></li>
+                                    <li><a href="#">Best Sellers</a></li>
+                                    <li><a href="#">Seasonal Promotions</a></li>
+                                    <li><a href="#">Collaborations</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3">
+                                <h5>Community</h5>
+                                <ul>
+                                    <li><a href="#">Follow Us on Facebook</a></li>
+                                    <li><a href="#">Follow Us on Instagram</a></li>
+                                    <li><a href="#">Newsletter Signup</a></li>
+                                    <li><a href="#">Read Customer Reviews</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        
+    </section>
+</body>
+</html>
